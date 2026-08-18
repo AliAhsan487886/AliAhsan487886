@@ -69,9 +69,6 @@ I'm an Electrical Engineering student at UET Lahore, working mainly in RTL desig
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=AliAhsan487886&show_icons=true&theme=radical&hide_border=true&count_private=true"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliAhsan487886&layout=compact&theme=radical&hide_border=true"/>
-
 <br/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=AliAhsan487886&theme=radical&hide_border=true"/>
