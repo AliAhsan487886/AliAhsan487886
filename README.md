@@ -1,112 +1,105 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1a1440&height=160&text=ALI%20AHSAN&fontSize=48&fontColor=c9a7ff&fontAlignY=55&desc=RTL%20%2F%20RISC-V%20%2F%20Digital%20Verification&descAlign=50&descAlignY=80&descColor=8b8ba7"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Ali%20Ahsan&fontSize=55&fontColor=ffffff&animation=twinkling&fontAlignY=38"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=900&color=8A63D2&center=true&vCenter=true&width=600&lines=RTL+Design+%26+Verification+Engineer;SystemVerilog+%7C+UVM-style+Testbenches;RISC-V+%7C+Computer+Architecture;Digital+Design+%7C+FPGA+%2F+ASIC+Flows" />
 
 </div>
 
 <br/>
 
-## `$timeline` — how I got here
+## 👨‍💻 About Me
 
-```
-UET Lahore, EE          MEDS Lab, RTL/Verif        RISC-V CFI (BSC / Inria)
-       │                        │                            │
-       ●────────────────────────●────────────────────────────●──▶ now
-       │                        │                            │
-  digital logic          SPI peripheral RTL          shadow stack +
-  & control theory        + SV verification           landing pads
-                                                       on Sargantana core
-```
-
-I build and verify digital hardware — mostly RISC-V-adjacent — and I care more about whether a testbench actually catches the bug than whether the RTL looks clever.
+I'm an Electrical Engineering student at UET Lahore, working mainly in RTL design and functional verification. My focus is SystemVerilog and RISC-V — writing hardware, then proving it's correct with testbenches and simulation, not just synthesis. I've done RTL verification work on a RISC-V SoC at MEDS, and I'm currently working on RISC-V control-flow integrity extensions (shadow stack and landing pads) as part of a BSC / Inria Rennes research collaboration. Outside of RTL, I build embedded control firmware for real-time systems.
 
 <br/>
 
-## `$coverage_report` — what I work with
+## 🧠 Hardware Description & Verification
 
-<details>
-<summary><b>RTL & Verification</b></summary>
+<div align="center">
+
+<img src="https://img.shields.io/badge/SystemVerilog-8A2BE2?style=for-the-badge&logo=v&logoColor=white"/>
+<img src="https://img.shields.io/badge/Verilog-002F6C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/RISC--V-283272?style=for-the-badge&logo=riscv&logoColor=white"/>
+<img src="https://img.shields.io/badge/Spike_Simulator-444444?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/C%2B%2B_Testbenches-00599C?style=for-the-badge&logo=cplusplus&logoColor=white"/>
+
+</div>
+
+- Writing synthesizable RTL and self-checking SystemVerilog testbenches
+- RISC-V core verification against the Spike ISA simulator (golden-model comparison)
+- Waveform-level debug and coverage-driven functional verification
+- Building C++ reference models / testbenches for hardware validation
+
 <br/>
 
-| Area | Tools |
-|---|---|
-| HDL | SystemVerilog, Verilog |
-| Simulation | ModelSim / QuestaSim, Verilator |
-| ISA-level checking | Spike simulator (golden-model comparison) |
-| Debug | GTKWave |
-| Reference models | C++ testbenches |
+## 🛠️ EDA & Digital Design Toolchain
 
-</details>
+<div align="center">
 
-<details>
-<summary><b>Synthesis & Physical Design</b></summary>
+<img src="https://img.shields.io/badge/Xilinx_Vivado-E31937?style=for-the-badge&logo=xilinx&logoColor=white"/>
+<img src="https://img.shields.io/badge/ModelSim%2FQuestaSim-004071?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Verilator-FF6600?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/GTKWave-2E8B57?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Altium_Designer-E6242C?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Makefiles-427819?style=for-the-badge&logo=gnu&logoColor=white"/>
+
+</div>
+
 <br/>
 
-| Area | Tools |
-|---|---|
-| FPGA toolchain | Xilinx Vivado |
-| Build automation | Makefiles |
-| PCB / schematic capture | Altium Designer |
+## 💻 Languages & Platforms
 
-</details>
-
-<details>
-<summary><b>Embedded & Firmware</b></summary>
-<br/>
-
-| Area | Tools |
-|---|---|
-| MCU platforms | STM32, ESP32 |
-| Build system | PlatformIO |
-| Control | Real-time PID loops, sensor fusion |
-
-</details>
-
-<details>
-<summary><b>Languages & General Tooling</b></summary>
-<br/>
+<div align="center">
 
 <img src="https://skillicons.dev/icons?i=c,cpp,python,bash,matlab,git,github,vscode,linux&theme=dark"/>
 
-</details>
+</div>
+
+<div align="center">
+<img src="https://img.shields.io/badge/STM32-03234B?style=for-the-badge&logo=stmicroelectronics&logoColor=white"/>
+<img src="https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>
+<img src="https://img.shields.io/badge/PlatformIO-FF7F00?style=for-the-badge&logo=platformio&logoColor=white"/>
+<img src="https://img.shields.io/badge/PowerWorld-1B4F72?style=for-the-badge"/>
+</div>
 
 <br/>
 
-## `$active_modules` — what I'm building
+## 🚀 Featured Work
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-**RISC-V Control-Flow Integrity Extensions**
-Implementing shadow stack + landing pad hardware enforcement on the Sargantana core — a BSC / Inria Rennes (SUSHI) collaboration.
-<br><br>
-`RISC-V` · `Computer Architecture` · `Hardware Security`
+**⚙️ RISC-V 5-Stage Pipelined Processor**
+Full IF/ID/EXE/MEM/WB pipeline in SystemVerilog — ALU, branch comparator, data forwarding, and hazard control. Verified in QuestaSim, synthesized in Vivado.
+
+`SystemVerilog` `QuestaSim` `Vivado`
 
 </td>
 <td width="50%" valign="top">
 
-**RTL Verification @ MEDS**
-SPI peripheral RTL design and SystemVerilog verification for a RISC-V SoC at a university open-silicon research lab.
-<br><br>
-`SystemVerilog` `RISC-V SoC` `Verification`
+**🛡️ RISC-V Control-Flow Integrity Extensions**
+Implementing shadow stack and landing-pad hardware enforcement on the Sargantana core, part of a BSC / Inria Rennes (SUSHI) research collaboration.
+
+`RISC-V` `Computer Architecture` `Hardware Security`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-**RISC-V 5-Stage Pipelined Processor**
-IF/ID/EXE/MEM/WB pipeline with forwarding and hazard control, verified in QuestaSim and synthesized in Vivado.
-<br><br>
-`SystemVerilog` `QuestaSim` `Vivado`
+**🧩 RTL Internship @ MEDS**
+RTL design and verification work on an SPI peripheral for a RISC-V SoC, at a university research lab focused on open-source silicon.
+
+`SystemVerilog` `RISC-V SoC` `Verification`
 
 </td>
 <td width="50%" valign="top">
 
-**Embedded Control Firmware**
-ESP32 closed-loop control system — dual cascaded PID, live tuning, auto-tune logic.
-<br><br>
+**🤖 Embedded Control Systems**
+ESP32-based closed-loop control firmware — dual cascaded PID at 200 Hz/20 Hz, live tuning dashboard, and auto-tune logic.
+
 `ESP32` `Embedded C` `PID Control`
 
 </td>
@@ -115,16 +108,20 @@ ESP32 closed-loop control system — dual cascaded PID, live tuning, auto-tune l
 
 <br/>
 
-## `$git log --stats`
+## 📊 GitHub Activity
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=AliAhsan487886&show_icons=true&theme=dracula&hide_border=true&bg_color=0d1117&count_private=true"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliAhsan487886&layout=compact&theme=dracula&hide_border=true&bg_color=0d1117"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=AliAhsan487886&show_icons=true&theme=radical&hide_border=true&count_private=true"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliAhsan487886&layout=compact&theme=radical&hide_border=true"/>
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=AliAhsan487886&theme=dracula&hide_border=true&background=0d1117"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=AliAhsan487886&theme=radical&hide_border=true"/>
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AliAhsan487886&bg_color=0d1117&color=c4b5fd&line=7c3aed&point=ffffff&area=true&hide_border=true" width="90%"/>
 
 </div>
 
@@ -132,7 +129,7 @@ ESP32 closed-loop control system — dual cascaded PID, live tuning, auto-tune l
 
 <div align="center">
 
-### `$snake --grid contribution_graph`
+### 🐍 Contribution Snake
 
 <img src="https://raw.githubusercontent.com/AliAhsan487886/AliAhsan487886/output/github-contribution-grid-snake-dark.svg" width="90%"/>
 
@@ -140,12 +137,12 @@ ESP32 closed-loop control system — dual cascaded PID, live tuning, auto-tune l
 
 <br/>
 
-## `$connect`
+## 🤝 Connect
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
-<img src="https://img.shields.io/badge/Email-8b8ba7?style=flat-square&logo=gmail&logoColor=white"/>
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 
 </div>
 
@@ -153,12 +150,8 @@ ESP32 closed-loop control system — dual cascaded PID, live tuning, auto-tune l
 
 <div align="center">
 
-```
-[ OK ] profile loaded
-[ OK ] repos linked
-[DONE] ready to collaborate — open an issue, fork a repo, or drop a message
-```
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=8A63D2&center=true&vCenter=true&width=450&lines=Thanks+for+stopping+by!;Star+a+repo+if+something+useful;More+RTL+%2B+RISC-V+work+coming" />
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1440,100:0d1117&height=90"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=110&section=footer"/>
 
 </div>
