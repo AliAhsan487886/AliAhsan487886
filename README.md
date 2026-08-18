@@ -1,98 +1,113 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1e3c72,100:2a5298&height=220&section=header&text=Ali%20Ahsan&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Electrical%20Engineer%20%7C%20RISC-V%20%7C%20Power%20Electronics%20%7C%20RTL%20Verification&descSize=18&descAlignY=58" width="100%"/>
-
-<a href="https://linkedin.com/in/aliahsan487886">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="https://github.com/AliAhsan487886">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=2A5298&center=true&vCenter=true&width=650&lines=Electrical+Engineering+%40+UET+Lahore;RTL+Design+%2B+Verification+(SystemVerilog);RISC-V+%7C+Computer+Architecture;Power+Electronics+%7C+Embedded+Firmware" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1a1440&height=160&text=ALI%20AHSAN&fontSize=48&fontColor=c9a7ff&fontAlignY=55&desc=RTL%20%2F%20RISC-V%20%2F%20Digital%20Verification&descAlign=50&descAlignY=80&descColor=8b8ba7"/>
 
 </div>
 
 <br/>
 
-## About Me
+## `$timeline` — how I got here
 
-```yaml
-name: Ali Ahsan (Malik)
-university: UET Lahore
-major: Electrical Engineering (3rd Year, Class of 2027)
-focus:
-  - RISC-V microarchitecture & RTL verification
-  - Power electronics (DAB converters, motor control)
-  - Embedded systems (STM32, ESP32)
-  - Digital design & FPGA/ASIC flows
-experience:
-  - RTL Design & Verification Intern @ MEDS (RISC-V SoC research lab, UET)
-currently:
-  - Exploring RISC-V CFI ISA extensions (shadow stack + landing pads) on the Sargantana core
+```
+UET Lahore, EE          MEDS Lab, RTL/Verif        RISC-V CFI (BSC / Inria)
+       │                        │                            │
+       ●────────────────────────●────────────────────────────●──▶ now
+       │                        │                            │
+  digital logic          SPI peripheral RTL          shadow stack +
+  & control theory        + SV verification           landing pads
+                                                       on Sargantana core
 ```
 
-<br/>
-
-## Tech Stack
-
-<div align="center">
-
-**Languages & HDLs**
-<br/>
-<img src="https://skillicons.dev/icons?i=c,cpp,py,matlab&theme=dark" />
-&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/SystemVerilog-8A2BE2?style=for-the-badge&logo=v&logoColor=white"/>
-
-**Tools & Platforms**
-<br/>
-<img src="https://skillicons.dev/icons?i=git,github,vscode,linux&theme=dark" />
-&nbsp;&nbsp;
-<img src="https://img.shields.io/badge/Xilinx_Vivado-E31937?style=for-the-badge&logo=xilinx&logoColor=white"/>
-<img src="https://img.shields.io/badge/ModelSim%2FQuestaSim-004071?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Verilator-FF6600?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Altium_Designer-E6242C?style=for-the-badge"/>
-
-</div>
+I build and verify digital hardware — mostly RISC-V-adjacent — and I care more about whether a testbench actually catches the bug than whether the RTL looks clever.
 
 <br/>
 
-## Featured Projects
+## `$coverage_report` — what I work with
+
+<details>
+<summary><b>RTL & Verification</b></summary>
+<br/>
+
+| Area | Tools |
+|---|---|
+| HDL | SystemVerilog, Verilog |
+| Simulation | ModelSim / QuestaSim, Verilator |
+| ISA-level checking | Spike simulator (golden-model comparison) |
+| Debug | GTKWave |
+| Reference models | C++ testbenches |
+
+</details>
+
+<details>
+<summary><b>Synthesis & Physical Design</b></summary>
+<br/>
+
+| Area | Tools |
+|---|---|
+| FPGA toolchain | Xilinx Vivado |
+| Build automation | Makefiles |
+| PCB / schematic capture | Altium Designer |
+
+</details>
+
+<details>
+<summary><b>Embedded & Firmware</b></summary>
+<br/>
+
+| Area | Tools |
+|---|---|
+| MCU platforms | STM32, ESP32 |
+| Build system | PlatformIO |
+| Control | Real-time PID loops, sensor fusion |
+
+</details>
+
+<details>
+<summary><b>Languages & General Tooling</b></summary>
+<br/>
+
+<img src="https://skillicons.dev/icons?i=c,cpp,python,bash,matlab,git,github,vscode,linux&theme=dark"/>
+
+</details>
+
+<br/>
+
+## `$active_modules` — what I'm building
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🔧 RISC-V 5-Stage Pipelined Processor
-SystemVerilog implementation with IF/ID/EXE/MEM/WB stages, ALU, branch comparator, forwarding, and hazard control. Verified with QuestaSim, synthesized in Vivado.
-
-`SystemVerilog` `QuestaSim` `Vivado`
+**RISC-V Control-Flow Integrity Extensions**
+Implementing shadow stack + landing pad hardware enforcement on the Sargantana core — a BSC / Inria Rennes (SUSHI) collaboration.
+<br><br>
+`RISC-V` · `Computer Architecture` · `Hardware Security`
 
 </td>
 <td width="50%" valign="top">
 
-### ⚡ Dual Active Bridge (DAB) DC-DC Converter
-Full power stage design (IRF740 MOSFETs, IR2110 gate drivers, 50 kHz switching) with STM32F103 center-aligned PWM control, soft-start ramp, and UART monitoring.
-
-`STM32` `Power Electronics` `C`
+**RTL Verification @ MEDS**
+SPI peripheral RTL design and SystemVerilog verification for a RISC-V SoC at a university open-silicon research lab.
+<br><br>
+`SystemVerilog` `RISC-V SoC` `Verification`
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🤖 Self-Balancing Robot
-Control Systems Lab CEP — ESP32-based dual cascaded PID control (200 Hz/20 Hz) with a WiFi dashboard, live Chart.js graphs, CSV logging, and Ziegler–Nichols auto-tune.
-
-`ESP32` `PID Control` `PlatformIO`
+**RISC-V 5-Stage Pipelined Processor**
+IF/ID/EXE/MEM/WB pipeline with forwarding and hazard control, verified in QuestaSim and synthesized in Vivado.
+<br><br>
+`SystemVerilog` `QuestaSim` `Vivado`
 
 </td>
 <td width="50%" valign="top">
 
-### 🛡️ RISC-V CFI ISA Extensions *(in progress)*
-BSC / Inria Rennes SUSHI collaboration on the Sargantana core — implementing shadow stack and landing pad hardware enforcement for control-flow integrity.
-
-`RISC-V` `Computer Architecture` `Hardware Security`
+**Embedded Control Firmware**
+ESP32 closed-loop control system — dual cascaded PID, live tuning, auto-tune logic.
+<br><br>
+`ESP32` `Embedded C` `PID Control`
 
 </td>
 </tr>
@@ -100,20 +115,16 @@ BSC / Inria Rennes SUSHI collaboration on the Sargantana core — implementing s
 
 <br/>
 
-## GitHub Stats
+## `$git log --stats`
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=AliAhsan487886&show_icons=true&theme=tokyonight&hide_border=true&count_private=true"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliAhsan487886&layout=compact&theme=tokyonight&hide_border=true"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=AliAhsan487886&show_icons=true&theme=dracula&hide_border=true&bg_color=0d1117&count_private=true"/>
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AliAhsan487886&layout=compact&theme=dracula&hide_border=true&bg_color=0d1117"/>
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=AliAhsan487886&theme=tokyonight&hide_border=true" />
-
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=AliAhsan487886&theme=tokyo-night&hide_border=true" width="90%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=AliAhsan487886&theme=dracula&hide_border=true&background=0d1117"/>
 
 </div>
 
@@ -121,8 +132,20 @@ BSC / Inria Rennes SUSHI collaboration on the Sargantana core — implementing s
 
 <div align="center">
 
-### 🐍 Contribution Snake
-<img src="https://raw.githubusercontent.com/AliAhsan487886/AliAhsan487886/output/github-contribution-grid-snake.svg" width="90%"/>
+### `$snake --grid contribution_graph`
+
+<img src="https://raw.githubusercontent.com/AliAhsan487886/AliAhsan487886/output/github-contribution-grid-snake-dark.svg" width="90%"/>
+
+</div>
+
+<br/>
+
+## `$connect`
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"/>
+<img src="https://img.shields.io/badge/Email-8b8ba7?style=flat-square&logo=gmail&logoColor=white"/>
 
 </div>
 
@@ -130,8 +153,12 @@ BSC / Inria Rennes SUSHI collaboration on the Sargantana core — implementing s
 
 <div align="center">
 
-*"If you give someone a program, you will frustrate them for a day; if you teach them how to program, you will frustrate them for a lifetime."*
+```
+[ OK ] profile loaded
+[ OK ] repos linked
+[DONE] ready to collaborate — open an issue, fork a repo, or drop a message
+```
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2a5298,100:1e3c72&height=100&section=footer" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:1a1440,100:0d1117&height=90"/>
 
 </div>
