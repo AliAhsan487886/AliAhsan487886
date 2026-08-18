@@ -65,49 +65,6 @@ I'm an Electrical Engineering student at UET Lahore, working mainly in RTL desig
 
 <br/>
 
-## 🚀 Featured Work
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**⚙️ RISC-V 5-Stage Pipelined Processor**
-Full IF/ID/EXE/MEM/WB pipeline in SystemVerilog — ALU, branch comparator, data forwarding, and hazard control. Verified in QuestaSim, synthesized in Vivado.
-
-`SystemVerilog` `QuestaSim` `Vivado`
-
-</td>
-<td width="50%" valign="top">
-
-**🛡️ RISC-V Control-Flow Integrity Extensions**
-Implementing shadow stack and landing-pad hardware enforcement on the Sargantana core, part of a BSC / Inria Rennes (SUSHI) research collaboration.
-
-`RISC-V` `Computer Architecture` `Hardware Security`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**🧩 RTL Internship @ MEDS**
-RTL design and verification work on an SPI peripheral for a RISC-V SoC, at a university research lab focused on open-source silicon.
-
-`SystemVerilog` `RISC-V SoC` `Verification`
-
-</td>
-<td width="50%" valign="top">
-
-**🤖 Embedded Control Systems**
-ESP32-based closed-loop control firmware — dual cascaded PID at 200 Hz/20 Hz, live tuning dashboard, and auto-tune logic.
-
-`ESP32` `Embedded C` `PID Control`
-
-</td>
-</tr>
-</table>
-
-<br/>
-
 ## 📊 GitHub Activity
 
 <div align="center">
@@ -141,8 +98,10 @@ ESP32-based closed-loop control firmware — dual cascaded PID at 200 Hz/20 Hz, 
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+<a href="https://www.linkedin.com/in/aliahsan487886/">
+  <img src="https://img.shields.io/badge/Ali_Ahsan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+</a>
+<img src="https://img.shields.io/badge/aliahsan487886@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 
 </div>
 
